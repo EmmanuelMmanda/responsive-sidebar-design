@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/boxicons.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Responsive Nav-Bar Design</title>
+  </head>
+  <body>
+    <nav class="sidebar">
+      <header>
+        <div class="image-text">
+          <span>
+            <img src="./images/sampe3.jpeg" width="40px" alt="profile" />
+          </span>
+          <div class="description">
+            <span class="text">Emmanuel Mmanda</span>
+            <span class="text">Web Developer</span>
+          </div>
+        </div>
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+      <div class="menu-bar">
+        <div class="menu">
+          <!-- Search Input -->
+          <ul>
+            <li >
+              <i class="bx bx-search"></i>
+              <input class="text" type="text"  placeholder="search" />
+            </li>
+          </ul>
+          <!-- sidebr Content -->
+          <ul>
+            <li class="menu-items active">
+              <a href="">
+                <i class="bx bx-home"></i>
+                <span class="text">Dashboard</span>
+              </a>
+            </li>
+            <li class="menu-items ">
+              <a href="">
+                <i class="bx bxl-javascript"></i>
+                <span class="text">Javascript</span>
+              </a>
+            </li>
+            <li class="menu-items">
+              <a href="">
+                <i class="bx bxl-php"></i>
+                <span class="text">PHP</span>
+              </a>
+            </li>
+            <li class="menu-items">
+              <a href="">
+                <i class="bx bxl-react"></i>
+                <span class="text">React Js</span>
+              </a>
+            </li>
+
+            <li class="menu-items">
+              <a href="">
+                <i class="bx bxl-html5"></i>
+                <span class="text">HTML & CSS</span>
+              </a>
+            </li>
+          </ul>
+          <!-- bottom content -->
+          <div class="bottom">
+            <ul>
+              <li class="menu-items">
+                <a href="">
+                  <i class="bx bx-log-out"></i>
+                  <span class="text">Log Out</span>
+                </a>
+              </li>
+              <li class="menu-items mode">
+                <a href="" class="">
+                  <i class="bx bx-moon text moon"></i>
+                  <i class="bx bx-sun text sun"></i>
+                  <span class="mode-text text">Dark Mode</span>
+                </a>
+                <div class="toggle-switch">
+                    <span class="toggler"></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main class="main">
+        <h1>
+            Dashboard
+        </h1>
+        <dir class="main-doc">
+            Beautiful SideBar With Light and Dark Mode ...
+        </dir>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
